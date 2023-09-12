@@ -54,15 +54,3 @@ function nextSlide() {
     index++
     moverCarrusel()
 }
-
-
-
-
-
-
-
-  
-  
-  
-  
-  

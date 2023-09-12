@@ -40,31 +40,121 @@ nav ul li a {
 }
 
 
-h1 {
-    text-align: center;
+/* Slither */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
 }
 
-h2 {
-    margin-top: 20px;
+.imagen {
+    width: 1000px;
+    height: 550px;
 }
 
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
+.Carrusel {
+    width: 1650px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
 }
 
-p {
-    margin-bottom: 10px;
+
+.Contenedor-imagenes {
+    display: flex;
+    transform: translateY(0);
+    transition: transform 1s ease-in-out;
 }
 
-#benefits {
-    margin-top: 20px;
+
+.Anterior {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 80px;
+    z-index: 2;
 }
 
-#exercises {
-    margin-top: 20px;
+.Siguiente {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 80px;
+    z-index: 2;
 }
 
-#how-to {
-    margin-top: 20px;
+.capa {
+    position: absolute;
+    height: 550px;
+    width: 1650px;
+    background-color: #00000030;
 }
+
+.pausas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #082133;
+    color: #fff;
+}
+
+.definicion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gridejercicios {
+display: grid;
+grid-template-columns: 475px 475px 475px 475px;
+}
+
+.gridejercicios .definicion img {
+height: 350px;
+width: 350px;
+}
+
+#uno {
+    grid-column: 2/2;
+    grid-row: 1;
+  }
+  
+  #dos {
+    grid-column: 3/3;
+    grid-row: 1;
+  }
+  
+  #tres {
+    grid-column: 1/1;
+    grid-row: 2;
+  }
+  
+  #cuatro {
+    grid-column: 2/2;
+    grid-row: 2;
+  }
+  
+  #cinco {
+    grid-column: 3/3;
+    grid-row: 2;
+  }
+  
+  #seis {
+    grid-column: 4/4;
+    grid-row: 2;
+  }
+  
