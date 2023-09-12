@@ -1,0 +1,252 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    width: 1800px;
+}
+
+header {
+    background-color: #082133;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.comida {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1900px;
+}
+
+.saludable {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0px 150px 0px;
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #082133;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.imagen1 {
+    height: 400px;
+    width: 385px;
+    background-color: aqua;
+    border-bottom-right-radius: 250px;
+    background: url(https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80) no-repeat;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* Slither */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.imagen {
+    width: 1000px;
+    height: 550px;
+}
+
+.Carrusel {
+    width: 1650px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.Contenedor-imagenes {
+    display: flex;
+    transform: translateY(0);
+    transition: transform 1s ease-in-out;
+}
+
+
+.Anterior {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 80px;
+    z-index: 2;
+}
+
+.Siguiente {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 80px;
+    z-index: 2;
+}
+
+.capa {
+    position: absolute;
+    height: 550px;
+    width: 1650px;
+    background-color: #00000030;
+}
+
+/* -------------------------- */
+
+
+.frasesitas {
+    height: 50px;
+    width: 500px;
+    padding-left: 435px;
+}
+
+.ergonomia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #082133;
+    color: #fff;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p.frase {
+    font-size: 18px;
+}
+
+h2 {
+    color: #333;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+.definicion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1250px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.definicion p {
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.importancia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+    gap: 50px;
+}
+
+.gridimportancia {
+    display: grid;
+    grid-template-columns: 800px 800px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+.importancia h3 {
+    font-size: 22px;
+}
+
+
+p {
+    font-size: 22px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 107px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    height: 300px;
+    width: 300px;
+}
+
+h4 {
+    font-size: 22px;
+}
