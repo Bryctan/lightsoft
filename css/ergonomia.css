@@ -16,23 +16,47 @@ header {
     align-items: center;
     justify-content: space-around;
     height: 120px;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style: none;
     padding: 0;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     display: inline;
     margin-right: 20px;
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-}
+  }
+  
+  .frasesitas {
+    height: 50px;
+    width: 500px;
+    padding-left: 435px;
+  }
+  
+  p.frase {
+    font-size: 19px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+  
+  p {
+    font-size: 19px;
+  }
+
 
 .comida {
     padding: 20px;
@@ -134,12 +158,6 @@ footer {
 /* -------------------------- */
 
 
-.frasesitas {
-    height: 50px;
-    width: 500px;
-    padding-left: 435px;
-}
-
 .ergonomia {
     display: flex;
     justify-content: center;
@@ -152,18 +170,10 @@ h1 {
     font-size: 40px;
 }
 
-p.frase {
-    font-size: 18px;
-}
-
 h2 {
     color: #333;
 }
 
-
-li {
-    margin-bottom: 10px;
-}
 
 .definicion {
     display: flex;
@@ -187,7 +197,7 @@ li {
 .definicion p {
     font-size: 22px;
     text-align: center;
-    
+
 }
 
 .importancia {
@@ -236,6 +246,7 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
 .foto {
     display: flex;
     justify-content: center;
@@ -249,4 +260,16 @@ p {
 
 h4 {
     font-size: 22px;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
 }

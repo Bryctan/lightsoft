@@ -1,10 +1,13 @@
 const frases = [
-    { frase: "Muévete a diario y tu cuerpo te lo agradecerá." },
-    { frase: "La agua es tu mejor compañera para el día." },
-    { frase: "Dormir bien, rendir mejor." },
-    { frase: "Comer bien es un acto de amor propio." },
-    { frase: "Respira profundo y libera el estrés." },
-    { frase: "Un paso a la vez hacia tu mejor de ti" }
+    { frase: "Estira tu cuerpo y relaja tu mente." },
+    { frase: "¡Toma un minuto para estirarte y recargarte!" },
+    { frase: "¿Listo para una pausa activa? ¡A moverse!" },
+    { frase: "Estira tu espalda y rodillas, cuida tu postura." },
+    { frase: "Sacúdete el cansancio con una pausa activa." },
+    { frase: "Una pausa breve, un mejor rendimiento." },
+    { frase: "No subestimes el poder de una pausa activa." },
+    { frase: "El movimiento es la clave para la concentración." },
+    { frase: "Recupera el enfoque con una pausa activa ahora mismo." }
   ];
   
   function actualizarFrase() {

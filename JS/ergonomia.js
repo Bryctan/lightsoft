@@ -1,10 +1,11 @@
 const frases = [
-    { frase: "Muévete a diario y tu cuerpo te lo agradecerá." },
-    { frase: "La agua es tu mejor compañera para el día." },
-    { frase: "Dormir bien, rendir mejor." },
-    { frase: "Comer bien es un acto de amor propio." },
-    { frase: "Respira profundo y libera el estrés." },
-    { frase: "Un paso a la vez hacia tu mejor de ti" }
+    { frase: "Ajusta tu espacio de trabajo para cuidar de tu cuerpo." },
+    { frase: "Una silla ergonómica es una inversión en tu salud." },
+    { frase: "La ergonomía en el trabajo promueve la salud y la productividad." },
+    { frase: "Alinea tu postura con principios ergonómicos para una vida sin dolor." },
+    { frase: "Un teclado y un mouse ergonómicos marcan la diferencia." },
+    { frase: "Haz de la ergonomía un hábito y experimenta la diferencia en tu bienestar." },
+    { frase : "La ergonomía reduce la fatiga y aumenta la eficiencia."}
   ];
   
   function actualizarFrase() {

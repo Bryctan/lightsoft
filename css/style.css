@@ -34,6 +34,30 @@ nav ul li a {
     font-size: 18px;
 }
 
+.frasesitas {
+    height: 50px;
+    width: 500px;
+    padding-left: 435px;
+}
+
+p.frase {
+    font-size: 19px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    font-size: 19px;
+  }
+
+
 .comida {
     padding: 20px;
     margin: 20px;
@@ -74,10 +98,6 @@ footer {
     background: url(https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80) no-repeat;
 }
 
-.logo {
-    height: 100px;
-    width: 100px;
-}
 
 
 /* Slither */
@@ -134,12 +154,6 @@ footer {
 /* -------------------------- */
 
 
-.frasesitas {
-    height: 50px;
-    width: 500px;
-    padding-left: 435px;
-}
-
 .habitos {
     display: flex;
     justify-content: center;
@@ -152,18 +166,13 @@ h1 {
     font-size: 40px;
 }
 
-p.frase {
-    font-size: 18px;
-}
 
 h2 {
     color: #333;
 }
 
 
-li {
-    margin-bottom: 10px;
-}
+
 
 .definicion {
     display: flex;

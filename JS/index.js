@@ -1,10 +1,12 @@
 const frases = [
-    { frase: "Muévete a diario y tu cuerpo te lo agradecerá." },
+    { frase: "Come más frutas y verduras y notaras la diferencia." },
     { frase: "La agua es tu mejor compañera para el día." },
     { frase: "Dormir bien, rendir mejor." },
     { frase: "Comer bien es un acto de amor propio." },
     { frase: "Respira profundo y libera el estrés." },
-    { frase: "Un paso a la vez hacia tu mejor de ti" }
+    {frase: "Haz ejercicio, vive mejor."},
+    { frase: "Cuida tu mente y cuerpo con amor." },
+    {frase: "Evita el estrés, abraza la calma."}
   ];
   
   function actualizarFrase() {

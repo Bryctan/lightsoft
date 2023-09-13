@@ -8,35 +8,53 @@ body {
 }
 
 header {
-    background-color: #082133;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 120px;
+  background-color: #082133;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.frasesitas {
+  height: 50px;
+  width: 500px;
+  padding-left: 435px;
+}
+
+p.frase {
+  font-size: 19px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+p {
+  font-size: 19px;
 }
 
 
@@ -104,7 +122,6 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     padding: 20px;
     margin: 20px;
     background-color: rgb(255, 255, 255);
@@ -191,6 +208,23 @@ width: 350px;
 
   .div {
     width: 500px;
+  }
+
+  .introduccion {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      width: 1000px;
+      margin: 20px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+  }
+
+  p {
+    font-size: 19px;
   }
 
   /* Estilos para el pie de página */
